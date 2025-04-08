@@ -72,7 +72,7 @@ export default function Home() {
           <h1
             className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-center text-[#1020addd]"
           >
-            {'"'}VISION{'"'}
+            VISION
           </h1>
         </div>
 
@@ -113,7 +113,7 @@ export default function Home() {
           <h1
             className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-center text-[#1020addd]"
           >
-            {'"'}MISSION{'"'}
+            MISSION
           </h1>
         </div>
 
