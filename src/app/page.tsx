@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-white">
 
       {/* Company Logo */}
       <div className="fixed top-0 right-5 z-[1000]">
