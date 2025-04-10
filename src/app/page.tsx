@@ -10,7 +10,7 @@ export default function Home() {
       {/* Company Logo */}
       <div className="fixed top-0 right-5 z-[1000]">
         <img
-          src="/avant-logo.png"
+          src="/Avant-Website-Photos/avant-logo.png"
           alt="Company Logo"
           className="w-28 h-auto sm:w-32 md:w-36 lg:w-40 xl:w-44"
         />
@@ -38,7 +38,7 @@ export default function Home() {
       >
         <div className="flex justify-center">
           <img
-            src="/avant_hero-sec-pic.png"
+            src="/Avant-Website-Photos/avant_hero-sec-pic.png"
             alt="pic"
             className="rounded-2xl border-2 border-black w-4/5 sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-2/5"
           />
@@ -64,7 +64,7 @@ export default function Home() {
       >
         <div className="flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20 px-4">
           <img
-            src="/avant_vision.png"
+            src="/Avant-Website-Photos/avant_vision.png"
             alt="pic"
             className="rounded-2xl border-2 border-black w-4/5 sm:w-2/3 md:w-1/2 lg:w-2/5"
           />
@@ -105,7 +105,7 @@ export default function Home() {
       >
         <div className="flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20 px-4">
           <img
-            src="/avant_mission.png"
+            src="/Avant-Website-Photos/avant_mission.png"
             alt="pic"
             className="rounded-2xl border-2 border-black w-4/5 sm:w-2/3 md:w-1/2 lg:w-2/5"
           />
@@ -233,7 +233,7 @@ export default function Home() {
       <section className="bg-gradient-to-r from-[#10cb0f] via-[#3cdc8d] to-[#9dc7b2] pt-14 pb-14 mt-10 px-4">
         <div className="flex flex-col sm:flex-row justify-center items-center gap-10">
           <img
-            src="/avant_product-development.png"
+            src="/Avant-Website-Photos/avant_product-development.png"
             alt="pic"
             className="rounded-2xl border-2 border-black w-3/4 sm:w-2/5 mb-6 sm:mb-0"
           />
@@ -272,7 +272,7 @@ export default function Home() {
       <section className="bg-gradient-to-r from-[#10cb0f] via-[#3cdc8d] to-[#9dc7b2] pt-14 pb-14 mt-1 px-4">
         <div className="flex flex-col sm:flex-row justify-center items-center gap-10 ">
           <img
-            src="/avant_quality.png"
+            src="/Avant-Website-Photos/avant_quality.png"
             alt="pic"
             className="rounded-2xl border-2 border-black w-3/4 sm:w-2/5 mb-6 sm:mb-0"
           />
@@ -316,7 +316,7 @@ export default function Home() {
       >
         <div className="flex flex-col sm:flex-row justify-center items-center gap-10">
           <img
-            src="/avant_manufacturing-plant.png"
+            src="/Avant-Website-Photos/avant_manufacturing-plant.png"
             alt="pic"
             className="rounded-2xl border-2 border-black w-3/4 sm:w-2/5"
             style={{
@@ -360,7 +360,7 @@ export default function Home() {
       >
         <div className="flex flex-col sm:flex-row justify-center items-center gap-10">
           <img
-            src="/avant_research-&-development.png"
+            src="/Avant-Website-Photos/avant_research-&-development.png"
             alt="pic"
             className="rounded-2xl border-2 border-black w-3/4 sm:w-2/5"
             style={{
@@ -410,7 +410,7 @@ export default function Home() {
       >
         <div className="flex flex-col sm:flex-row justify-center items-center gap-10">
           <img
-            src="/avant_sales-&-marketing.png"
+            src="/Avant-Website-Photos/avant_sales-&-marketing.png"
             alt="pic"
             className="rounded-2xl border-2 border-black w-3/4 sm:w-2/5"
             style={{
@@ -460,7 +460,7 @@ export default function Home() {
       >
         <div className="flex flex-col sm:flex-row justify-center items-center gap-10">
           <img
-            src="/avant_export-operations.png"
+            src="/Avant-Website-Photos/avant_export-operations.png"
             alt="pic"
             className="rounded-2xl border-2 border-black w-3/4 sm:w-2/5"
             style={{
@@ -519,7 +519,7 @@ export default function Home() {
       >
         <div className="flex flex-col sm:flex-row justify-center items-center gap-10">
           <img
-            src="/avant_supply-chain.png"
+            src="/Avant-Website-Photos/avant_supply-chain.png"
             alt="pic"
             className="rounded-2xl border-2 border-black w-3/4 sm:w-2/5"
             style={{
@@ -566,64 +566,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/*Life Healthcare Division Section*/}
-      <section
-        style={{
-          background:
-            "rgb(16,203,15) linear-gradient(90deg, rgba(16,203,15,1) 15%, rgba(60,222,141,1) 60%, rgba(157,199,178,1) 100%)",
-        }}
-        className="pt-14 pb-14 mt-1"
-      >
-        <div className="flex justify-center">
-          <h1
-            className="text-4xl md:text-5xl lg:text-7xl font-bold text-white text-center"
-            style={{
-              color: "#1020addd",
-            }}
-          >
-            Life Healthcare Division
-          </h1>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-14 px-4 sm:px-6 md:px-10">
-          {[
-            { name: "Fredrixone", desc: "(Ceftriaxone Sodium)", details: "250mg, 500mg & 1mg Inj" },
-            { name: "INEZOX", desc: "(LINEZOLID)", details: "TABLETS (400mg)" },
-            { name: "REKLAST", desc: "(ibandronate sodium)", details: "150mg Tablets" },
-            { name: "GLUCOTIN", desc: "(Glucosamine + Chondriotin with Vitamin C&D)", details: "TABLETS" },
-            { name: "GinkDay", desc: "(Ginkgo Biloba + Ginseng)", details: "SYRUP & TABLETS" },
-            { name: "MultiSign", desc: "(Multivitamins + Minerals)", details: "SYRUP & TABLETS" },
-            { name: "Ornocam", desc: "(Lornoxicam)", details: "4mg & 8mg Tablets" },
-            { name: "Dicolive", desc: "(Diclofenac Sodium)", details: "50mg & 100mg ER Tablets" },
-            { name: "Prazovant", desc: "(Pantoprazole)", details: "40mg Tablets" },
-            { name: "Femovant", desc: "(Famotidine)", details: "20mg Tablets" },
-            { name: "N-cid", desc: "Antacid", details: "120ml Syrup" },
-            { name: "Avefox", desc: "(Fexofenadine HCI)", details: "180mg Tablets" },
-            { name: "Citrazit", desc: "(Cetirizine Dihydrochloride)", details: "10mg Tablets" },
-            { name: "Avetizer", desc: "(Appetizer)", details: "120ml SYRUP" },
-            { name: "D-Gas", desc: "(Colic Drop)", details: "20ml Drop" },
-            { name: "Cor-Cof", desc: "(IVY Leaf Extract with Thyme,Licorice & Menthol)", details: "SYRUP" },
-            { name: "PURE-D", desc: "(Cholecalciferol Vit. D3 200,000)", details: "Chewable Tablets" },
-            { name: "CalSign", desc: "(Calcium + Zinc with Magnesium, Vitamin D3, Vitamin K2 & Folic Acid)", details: "DROP, SYRUP & TABLETS" },
-            { name: "Dy-Cal", desc: "(Calcium Carbonate - Vitamin C)", details: "SACHET" },
-            { name: "IROFIC", desc: "Iron as iron Bisglycinate With Folic Acid and Vitamin B12", details: "SYRUP & TABLETS" },
-            { name: "Mincowin", desc: "(Mecobalamin)", details: "500mcg Tablets" },
-            { name: "Avepram", desc: "(Escitalopram)", details: "5mg Tablet" },
-            { name: "ZINCTEC", desc: "Zinc Gluconate with Calcium and Magnesium", details: "60ml Syrup" },
-            { name: "DAINA DS", desc: "(Serratiopeptidase)", details: "10mg Tablets" }
-          ].map((item, index) => (
-            <div
-              key={index}
-              className="bg-white text-black rounded-2xl shadow-lg border-t-4 border-[#2eb921] hover:shadow-2xl transition duration-300 ease-in-out p-4 text-center"
-            >
-              <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl text-green-700">{item.name}</h2>
-              <p className="text-md sm:text-lg mt-2">{item.desc}</p>
-              <p className="text-sm sm:text-md mt-1">{item.details}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* General Health Portfolio Section */}
       <section
         style={{
@@ -643,109 +585,50 @@ export default function Home() {
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-14 px-4 sm:px-6 md:px-10">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-14 px-4 sm:px-6 md:px-10">
           {[
-            { name: "UTRIAXONE", description: "(Ceftriaxone Sodium USP)", details: "250mg, 500mg & 1gm injection" },
-            { name: "Moxivant", description: "(Moxifloxacin)", details: "400mg Tablets" },
-            { name: "AVAZIT", description: "(Azithromycin dihydrate)", details: "250mg Tablets & 500mg Capsules" },
-            { name: "LEFLO", description: "(Levofloxacin)", details: "250mg & 500mg Tablets" },
-            { name: "CEFIVANT", description: "(Cefixime Trihydrate)", details: "Caps 400mg & Susp 100, 200mg" },
-            { name: "Avecip", description: "(Ciprofloxacin)", details: "250mg & 500mg Tablets" },
-            { name: "Artiavant", description: "(Artemether + Lumefantrine)", details: "40/240mg & 80/480mg Tablets" },
-            { name: "Avecast", description: "(Montelukast Sodium)", details: "10mg Tablets" },
-            { name: "UMAROSE", description: "(Iron sucrose)", details: "5x5ml Injection" },
-            { name: "Avecran", description: "(Cranberry + Vit C + Probiotics)", details: "120ml Syrup" },
-            { name: "AvaC", description: "(Calcium carbonate + Zinc with Vitamin C and Vitamin D)", details: "120ml Syrup" },
-            { name: "Calavant D", description: "(Calcium 600mg + Vit. D3 400IU)", details: "Tablets, Syrup & Oral Drops" },
-            { name: "IROVANT", description: "(Iron as Iron Bisglycinate + Folic Acid)", details: "Tablets, Syrup & Drops" },
-            { name: "Foli Vant", description: "(L-Methylfolate)", details: "400mcg Tablets & 40mcg Drops" },
-            { name: "MULTIWIN", description: "(Multivitamin)", details: "Tablets & Syrup" },
-            { name: "Navis", description: "(Esomeprazole)", details: "20mg/40mg Capsules & 40mg Injection" },
-            { name: "M-cid", description: "(Antacid)", details: "120ml Syrup" },
-            { name: "Aveprid", description: "(Itopride)", details: "50mg Tablets" },
-            { name: "SECLO", description: "(Omeprazole)", details: "20mg & 40 Capsules" },
-            { name: "Dispride", description: "(Levosulpiride)", details: "25mg Tablet" },
-            { name: "Mincowin", description: "(Methylcobalamin)", details: "1500mcg Tablets" },
-            { name: "Acovert", description: "(Amlodipine/Valsartan)", details: "5/80mg & 10/160mg Tablets" },
-            { name: "VelzMet", description: "(Vildagliptin + Metformin HCI)", details: "50/850 & 50/1000mg Tablets" },
-            { name: "ROSUTIP", description: "(Rosuvastatin)", details: "20mg Tablets" },
-            { name: "Avegas", description: "(Colic Drops)", details: "20ml Drops" },
-            { name: "Avetize", description: "(Appetizer)", details: "120ml Syrup" },
-            { name: "AVEZINC", description: "(Zinc Syrup)", details: "60ml Syrup" },
-            { name: "LAXAT", description: "(Laxative & Purgative)", details: "120ml Syrup" },
-            { name: "LiverMax", description: "(Silymarin Milk Thistle)", details: "120ml Syrup" },
-            { name: "G-Cof", description: "(Ivy Leaf Extract with Thyme & Licorice)", details: "120ml Syrup & 20ml Drops" },
-            { name: "INICOX", description: "(Celecoxib)", details: "200mg Capsules" },
-            { name: "Etocox", description: "(Etoricoxib)", details: "60mg Tablets" },
-          ].map((product, index) => (
-            <div key={index} className="bg-white text-black rounded-2xl shadow-lg border-t-4 border-[#2eb921] hover:shadow-2xl transition duration-300 ease-in-out p-4 text-center">
-              <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl text-green-700">{product.name}</h2>
-              <p className="text-md sm:text-lg mt-2">{product.description}</p>
-              <p className="text-sm sm:text-md mt-1">{product.details}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/*Avant CNS Mind Force*/}
-      <section
-        style={{
-          background:
-            "rgb(16,203,15) linear-gradient(90deg, rgba(16,203,15,1) 15%, rgba(60,222,141,1) 60%, rgba(157,199,178,1) 100%)",
-        }}
-        className="pt-14 pb-14 mt-1"
-      >
-        <div className="flex justify-center px-4">
-          <h1
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center"
-            style={{ color: "#1020addd" }}
-          >
-            Avant CNS Mind Force
-          </h1>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-14 px-4 md:px-8 lg:px-10">
-          {[
-            { name: "Avepram", desc: "(Escitalopram)", dose: "5mg, 10mg & 20mg Tablets" },
-            { name: "Paroxiwel & CR", desc: "(Paroxetine)", dose: "20mg Tablet, 12.5 & 25mg CR Tablets" },
-            { name: "Treloft", desc: "(Sertraline)", dose: "50mg & 100mg Tablets" },
-            { name: "Loxivant", desc: "(Duloxetine as HCI USP)", dose: "20mg, 30mg & 60mg Capsules" },
-            { name: "RESPIVANT", desc: "(Risperidone)", dose: "2mg & 4mg Tablets" },
-            { name: "Zapiva", desc: "(Olanzapine)", dose: "5mg & 10mg Tablets" },
-            { name: "Zapiva Plus", desc: "(Olanzapine + Fluoxetine)", dose: "6/25mg Tablets" },
-            { name: "VESGAB", desc: "(Pregabalin)", dose: "25mg, 50mg, 75mg & 100mg Capsules" },
-            { name: "Leviticam", desc: "(Levetiracetam)", dose: "250mg & 500mg Tablets" },
-            { name: "Ave-Gab", desc: "(Gabapentin)", dose: "300mg Capsules" },
-            { name: "Avetop", desc: "(Topiramate)", dose: "50mg Tablets" },
-            { name: "ESPEZAR", desc: "(Esomeprazole)", dose: "20mg & 40mg Tablets" },
-            { name: "Neulin", desc: "(Choline Comp.)", dose: "500mg Tablets & Syrup" },
-            { name: "Baclez", desc: "(Baclofen)", dose: "10mg Tablets" },
-            { name: "LECOZ", desc: "(Lacosamide)", dose: "50mg, 100mg & 200mg Tablets" },
-            { name: "Avetriptan", desc: "(Zolmitriptan)", dose: "2.5mg Tablet" },
-            { name: "FLARIZEN", desc: "(Flunarizine)", dose: "5mg Tablets" },
-            { name: "Megavant", desc: "(Omega-3 with Vitamin A,C,D,E)", dose: "200ml Syrup & Tablets" },
-            { name: "Veplin", desc: "(L-Methylfolate)", dose: "7.5mg & 15mg Tablets" },
-            { name: "Mincowin", desc: "(Methylcobalamin + Vitamin D3 + Zinc)", dose: "Tablets" },
-            { name: "MeloNex", desc: "(Melatonin)", dose: "10mg Tablets & 10ml Drops" },
-            { name: "D-Vant", desc: "(Cholecalciferol Vit. D3 100,000 & 200,000 IU)", dose: "Chewable Tab/Oral/IM Amp, Oral Solution(Vit.D3 200,000 IU + Vit.A 5,000)" },
-            { name: "Oxivant", desc: "(Acetyl L-Carnitine + Multivitamins + Omega-3)", dose: "500mg Tablets & Syrup 120ml" },
-            { name: "Cogin", desc: "(Ginkgo Biloba + Ginseng)", dose: "Tablets & Syrup" },
-            { name: "POWERPLUS", desc: "(Energy + Performance)", dose: "Tablets" },
-            { name: "GLOWIN", desc: "(Glucosamine + Chondroitin + Diacerein - Aloe Extract)", dose: "Tablets" },
-            { name: "Rexdol", desc: "(Tramadol + Acetaminophen)", dose: "37.5mg/325mg Tablets" },
-            { name: "Trizawin", desc: "(Tizanidine)", dose: "2mg & 4mg Tablets" },
-            { name: "Dispride", desc: "(Levosulpiride)", dose: "50mg Tablet" },
-            { name: "Neulin", desc: "(CHOLINE + GINKGO BILOBA & GINSENG)", dose: "Tablets & Syrup" },
-          ].map((product, index) => (
+            "1.png",
+            "2.png",
+            "3.png",
+            "4.png",
+            "5.png",
+            "6.png",
+            "7.png",
+            "8.png",
+            "9.png",
+            "10.png",
+            "11.png",
+            "12.png",
+            "13.png",
+            "14.png",
+            "15.png",
+            "16.png",
+            "17.png",
+            "18.png",
+            "19.png",
+            "20.png",
+            "21.png",
+            "22.png",
+            "23.png",
+            "24.png",
+            "25.png",
+            "26.png",
+            "27.png",
+            "28.png",
+            "29.png",
+            "30.png",
+            "31.png",
+            "32.png"
+          ].map((imageName, index) => (
             <div
               key={index}
-              className="bg-white text-black rounded-2xl shadow-lg border-t-4 border-[#2eb921] hover:shadow-2xl transition duration-300 ease-in-out p-4 text-center"
+              className="bg-white rounded-2xl overflow-hidden shadow-lg border-t-4 border-[#2eb921] hover:shadow-2xl transition duration-300 ease-in-out"
             >
-              <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl text-green-700">
-                {product.name}
-              </h2>
-              <p className="text-md sm:text-lg mt-2">{product.desc}</p>
-              <p className="text-sm sm:text-md mt-1">{product.dose}</p>
+              <img
+                src={`/General-Health-Portfolio/${imageName}`}
+                alt={`Product ${index + 1}`}
+                className="w-full h-[150px] md:h-[200px] lg:h-[250px] object-contain"
+              />
             </div>
           ))}
         </div>
@@ -757,114 +640,319 @@ export default function Home() {
           background:
             "rgb(16,203,15) linear-gradient(90deg, rgba(16,203,15,1) 15%, rgba(60,222,141,1) 60%, rgba(157,199,178,1) 100%)",
         }}
-        className="pt-10 pb-14 mt-1 px-4 sm:px-6 lg:px-10"
+        className="pt-14 pb-14 mt-1"
       >
         <div className="flex justify-center">
           <h1
-            className="text-3xl sm:text-5xl lg:text-7xl font-bold text-white text-center"
-            style={{ color: "#1020addd" }}
+            className="text-4xl md:text-5xl lg:text-7xl font-bold text-white text-center"
+            style={{
+              color: "#1020addd",
+            }}
           >
-            AVANT PEADS CARE
+            Avant Peads Care
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-14 px-4 sm:px-6 md:px-10">
           {[
-            {
-              name: "CEFIVANT",
-              desc1: "(Cefixime Trihydrate)",
-              desc2: "Caps 400mg & Susp 100 & 200mg",
-            },
-            {
-              name: "UTRIAXONE",
-              desc1: "(Ceftriaxone Sodium USP)",
-              desc2: "250mg, 500mg & 1mg Injection",
-            },
-            {
-              name: "IROVANT",
-              desc1: "(Iron as Iron Bisglycinate + Folic Acid)",
-              desc2: "Tablets, Syrup & Drops",
-            },
-            {
-              name: "Calavant D",
-              desc1: "(Calcium 600mg + Vit. D3 400 IU)",
-              desc2: "Tablets, Syrup & Oral Drops",
-            },
-            {
-              name: "AVEZINC",
-              desc1: "(Zinc Syrup)",
-              desc2: "60ml Syrup",
-            },
-            {
-              name: "Oxivant",
-              desc1: "(Acetyl L-Camitine with Vitamin B6 & Pantothenic Acid)",
-              desc2: "120ml Syrup/20ml Drops, Drops (L-Camitine 100mg/10ml)",
-            },
-            {
-              name: "Avetize",
-              desc1: "(Appetizer)",
-              desc2: "120ml Syrup",
-            },
-            {
-              name: "Foli Vant",
-              desc1: "(L-Methylfolate)",
-              desc2: "400mcg Tablets & 40mcg Drops",
-            },
-            {
-              name: "Avegas",
-              desc1: "(Colic Drops)",
-              desc2: "20ml Drops",
-            },
-            {
-              name: "MULTIWIN",
-              desc1: "(Multivitamin)",
-              desc2: "Tablets, Syrup & Drops",
-            },
-            {
-              name: "G-Cof",
-              desc1: "Ivy Leaf Extract with Thyme & Licorice",
-              desc2: "120ml Syrup & 20ml Drops",
-            },
-            {
-              name: "AvaC",
-              desc1: "(Calcium carbonate + Zinc with Vitamin C and Vitamin D)",
-              desc2: "120ml Syrup/Sachet",
-            },
-            {
-              name: "Megavant",
-              desc1: "(Omega-3 with Vitamin A,C,D,E)",
-              desc2: "Syrup 200ml & Tablets",
-            },
-            {
-              name: "Cogin",
-              desc1: "(Ginkgo Biloba + Ginseng)",
-              desc2: "Syrup 120ml/Tablets",
-            },
-            {
-              name: "Neulin",
-              desc1: "(Choline Comp.)",
-              desc2: "Tablets & Syrup",
-            },
-            {
-              name: "Avecran",
-              desc1: "(Cranberry + Vit C + Probiotics)",
-              desc2: "120ml Syrup",
-            },
-            {
-              name: "LAXAT",
-              desc1: "(Laxative & Purgative)",
-              desc2: "120ml Syrup",
-            },
-          ].map((product, index) => (
+            "1.png",
+            "2.png",
+            "3.png",
+            "4.png",
+            "5.png",
+            "6.png",
+            "7.png",
+            "8.png",
+            "9.png",
+            "10.png",
+            "11.png",
+            "12.png",
+            "13.png",
+            "14.png",
+            "15.png",
+            "16.png",
+            "17.png",
+          ].map((imageName, index) => (
             <div
               key={index}
-              className="bg-white text-black rounded-2xl shadow-lg border-t-4 border-[#2eb921] hover:shadow-2xl transition duration-300 ease-in-out p-6 text-center"
+              className="bg-white rounded-2xl overflow-hidden shadow-lg border-t-4 border-[#2eb921] hover:shadow-2xl transition duration-300 ease-in-out"
             >
-              <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-green-700">
-                {product.name}
-              </h2>
-              <p className="text-base md:text-lg mt-2">{product.desc1}</p>
-              <p className="text-sm md:text-md mt-1">{product.desc2}</p>
+              <img
+                src={`/Avant-Peads-Care/${imageName}`}
+                alt={`Product ${index + 1}`}
+                className="w-full h-[150px] md:h-[200px] lg:h-[250px] object-contain"
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/*Avant CNS Mind Force Section*/}
+      <section
+        style={{
+          background:
+            "rgb(16,203,15) linear-gradient(90deg, rgba(16,203,15,1) 15%, rgba(60,222,141,1) 60%, rgba(157,199,178,1) 100%)",
+        }}
+        className="pt-14 pb-14 mt-1"
+      >
+        <div className="flex justify-center">
+          <h1
+            className="text-4xl md:text-5xl lg:text-7xl font-bold text-white text-center"
+            style={{
+              color: "#1020addd",
+            }}
+          >
+            Avant CNS Mind Force
+          </h1>
+        </div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-14 px-4 sm:px-6 md:px-10">
+          {[
+            "1.png",
+            "2.png",
+            "3.png",
+            "4.png",
+            "5.png",
+            "6.png",
+            "7.png",
+            "8.png",
+            "9.png",
+            "10.png",
+            "11.png",
+            "12.png",
+            "13.png",
+            "14.png",
+            "15.png",
+            "16.png",
+            "17.png",
+            "18.png",
+            "19.png",
+            "20.png",
+            "21.png",
+            "22.png",
+            "23.png",
+            "24.png",
+            "25.png",
+            "26.png",
+            "27.png",
+            "28.png",
+            "29.png",
+            "30.png",
+            "31.png",
+            "32.png"
+          ].map((imageName, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-2xl overflow-hidden shadow-lg border-t-4 border-[#2eb921] hover:shadow-2xl transition duration-300 ease-in-out"
+            >
+              <img
+                src={`/Avant-CNS-Mind-Force/${imageName}`}
+                alt={`Product ${index + 1}`}
+                className="w-full h-[150px] md:h-[200px] lg:h-[250px] object-contain"
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Life Healthcare Division Section */}
+      <section
+        style={{
+          background:
+            "rgb(16,203,15) linear-gradient(90deg, rgba(16,203,15,1) 15%, rgba(60,222,141,1) 60%, rgba(157,199,178,1) 100%)",
+        }}
+        className="pt-14 pb-14 mt-1"
+      >
+        <div className="flex justify-center">
+          <h1
+            className="text-4xl md:text-5xl lg:text-7xl font-bold text-white text-center"
+            style={{
+              color: "#1020addd",
+            }}
+          >
+            Life Healthcare Division Section
+          </h1>
+        </div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-14 px-4 sm:px-6 md:px-10">
+          {[
+            "1.png",
+            "2.png",
+            "3.png",
+            "4.png",
+            "5.png",
+            "6.png",
+            "7.png",
+            "8.png",
+            "9.png",
+            "10.png",
+            "11.png",
+            "12.png",
+            "13.png",
+            "14.png",
+            "15.png",
+            "16.png",
+            "17.png",
+            "18.png",
+            "19.png",
+            "20.png",
+            "21.png",
+            "22.png",
+            "23.png",
+            "24.png",
+          ].map((imageName, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-2xl overflow-hidden shadow-lg border-t-4 border-[#2eb921] hover:shadow-2xl transition duration-300 ease-in-out"
+            >
+              <img
+                src={`/Avant-CNS-Mind-Force/${imageName}`}
+                alt={`Product ${index + 1}`}
+                className="w-full h-[150px] md:h-[200px] lg:h-[250px] object-contain"
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/*Avant CNS Mind Force Section*/}
+      <section
+        style={{
+          background:
+            "rgb(16,203,15) linear-gradient(90deg, rgba(16,203,15,1) 15%, rgba(60,222,141,1) 60%, rgba(157,199,178,1) 100%)",
+        }}
+        className="pt-14 pb-14 mt-1"
+      >
+        <div className="flex justify-center">
+          <h1
+            className="text-4xl md:text-5xl lg:text-7xl font-bold text-white text-center"
+            style={{
+              color: "#1020addd",
+            }}
+          >
+            Avant Products
+          </h1>
+        </div>
+
+        <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-14 px-4 sm:px-6 md:px-10">
+          {[
+            "1.png",
+            "3.png",
+            "2.png",
+            "5.png",
+            "4.png",
+            "6.png",
+            "7.png",
+            "8.png",
+            "9.png",
+            "10.png",
+            "21.png",
+            "11.png",
+            "12.png",
+            "13.png",
+            "14.png",
+            "15.png",
+            "16.png",
+            "17.png",
+            "18.png",
+            "19.png",
+            "20.png",
+            "22.png",
+            "23.png",
+            "20.png",
+            "24.png",
+            "25.png",
+            "26.png",
+            "27.png",
+            "28.png",
+            "29.png",
+            "30.png",
+            "31.png",
+            "32.png",
+            "33.png",
+            "34.png",
+            "35.png",
+            "36.png",
+            "37.png",
+            "38.png",
+            "39.png",
+            "40.png",
+            "41.png",
+            "42.png",
+            "43.png",
+            "44.png",
+            "45.png",
+            "46.png",
+            "47.png",
+            "48.png",
+            "49.png",
+            "50.png",
+            "51.png",
+            "52.png",
+            "53.png",
+            "54.png",
+            "55.png",
+            "56.png",
+            "57.png",
+            "58.png",
+            "59.png",
+            "60.png",
+            "61.png",
+            "62.png",
+            "63.png",
+            "64.png",
+            "65.png",
+            "66.png",
+            "67.png",
+            "68.png",
+            "69.png",
+            "70.png",
+            "71.png",
+            "72.png",
+            "73.png",
+            "74.png",
+            "75.png",
+            "76.png",
+            "77.png",
+            "78.png",
+            "79.png",
+            "80.png",
+            "81.png",
+            "82.png",
+            "83.png",
+            "84.png",
+            "85.png",
+            "86.png",
+            "87.png",
+            "88.png",
+            "89.png",
+            "90.png",
+            "91.png",
+            "92.png",
+            "93.png",
+            "94.png",
+            "95.png",
+            "96.png",
+            "97.png",
+            "98.png",
+            "99.png",
+            "100.png",
+            "101.png",
+            "102.png",
+            "103.png",
+            "104.png",
+            "105.png",
+            "106.png"
+          ].map((imageName, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-2xl overflow-hidden shadow-lg border-t-4 border-[#2eb921] hover:shadow-2xl transition duration-300 ease-in-out"
+            >
+              <img
+                src={`/Avant-Products/${imageName}`}
+                alt={`Product ${index + 1}`}
+                className="w-full h-[100px] md:h-[200px] lg:h-[250px] object-contain"
+              />
             </div>
           ))}
         </div>
@@ -887,7 +975,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-32">
             {/* Image */}
             <img
-              src="/avant-company.png"
+              src="/Avant-Website-Photos/avant-company.png"
               alt="Factory Building"
               className="rounded-2xl shadow-2xl border-4 border-white w-full sm:w-[600px] lg:w-[700px] h-auto max-h-[500px] object-cover"
             />
